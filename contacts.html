@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+body { 
+        font-family: 'Inter', sans-serif; 
+        background-color: #f8f9ff; 
+        color: #2d3436; 
+        margin: 0;
+    }
+
+    .hero-section {
+        background: linear-gradient(135deg, #4e73df 0%, #0404a8a5 100%);
+        padding: 20px 0 160px 0; 
+        text-align: center;
+        color: white;
+        position: relative;
+    }
+
+    .hero-content-area {
+        margin-top: 40px;
+        margin-bottom: 0px;
+    }
+
+    .hero-section::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100px;
+        background: white;
+        border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+    }
+
+    .navbar { 
+        background: transparent !important; 
+    }
+    .nav-link { 
+        color: rgba(255,255,255,0.8) !important; 
+        font-weight: 500;
+        padding: 0.5rem 1rem !important;
+    }
+    .nav-item.active .nav-link { 
+        color: white !important; 
+        font-weight: 700; 
+    }
+
+    .main-content {
+        margin-top: -110px;
+        position: relative;
+        z-index: 10;
+        padding-bottom: 50px;
+    }
+
+    .card { 
+      border: none; 
+      border-radius: 20px; 
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+      transition: transform 0.3s ease;
+      background: #ffffff;
+    }
+    .card:hover { transform: translateY(-5px); }
+    
+    .icon-box { 
+      font-size: 2rem; 
+      margin-bottom: 15px; 
+      color: #0404a8a5;
+    }
+    
+    .contact-link {
+      text-decoration: none !important;
+      color: #0404a8a5;
+      font-weight: 600;
+    }
+    
+    h1 { font-size: 3.2rem; font-weight: 800; margin-bottom: 10px; }
+    .lead-text { font-size: 1.15rem; opacity: 0.9; }
+
+    .btn-fb {
+      background-color: #0404a8a5;
+      color: white !important;
+      border-radius: 10px;
+      font-weight: 600;
+      border: none;
+      padding: 10px 25px;
+    }
+  </style>
+  <title>Resume</title>
+</head>
+<body>
+<div class="hero-section">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="info.html">Info</a></li>
+            <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="hireme.html">Why Hire Me</a></li>
+            <li class="nav-item active"><a class="nav-link" href="contacts.html">Contacts</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container hero-content-area">
+        <h1>Contacts</h1>
+        <p class="lead-text">I'm currently open to new Virtual Assistant opportunities.</p>
+    </div>
+</div>
+
+<div class="container main-content">
+  <div class="row justify-content-center">
+    <div class="col-md-4 mb-4">
+      <div class="card h-100">
+        <div class="card-body text-center p-5">
+          <div class="icon-box"><i class="fas fa-map-marker-alt"></i></div>
+          <h5 class="font-weight-bold">Address</h5>
+          <p class="text-muted">Cavite, Philippines</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+      <div class="card h-100">
+        <div class="card-body text-center p-5">
+          <div class="icon-box"><i class="fas fa-phone-alt"></i></div>
+          <h5 class="font-weight-bold">Phone</h5>
+          <a href="tel:09987654321" class="contact-link">0998 765 4321</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+      <div class="card h-100">
+        <div class="card-body text-center p-5">
+          <div class="icon-box"><i class="fas fa-envelope"></i></div>
+          <h5 class="font-weight-bold">Email</h5>
+          <a href="mailto:CathyCruz@gmail.com" class="contact-link">CathyCruz@gmail.com</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6 mb-4">
+      <div class="card shadow-sm">
+        <div class="card-body text-center p-5">
+          <div class="icon-box"><i class="fab fa-facebook"></i></div>
+          <h5 class="font-weight-bold">Facebook</h5>
+          <a href="https://www.facebook.com/cathy.cruz/" target="_blank" class="btn btn-fb mt-3">
+            Visit My Profile
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
